@@ -12,6 +12,8 @@ def web_instance():
     try:
         # Create an instance of ChromeOptions
         options = webdriver.ChromeOptions()
+        options.add_argument("--headless=new")
+
         driver = webdriver.Chrome(options=options)
 
         # Navigate to web page
