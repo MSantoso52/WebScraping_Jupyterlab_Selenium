@@ -50,7 +50,7 @@ def dataPreparation(countries, new_data):
     # Data correction for all data
     for i, j in enumerate(countries):
         if(len(j) > 5):
-            x = len(j) - 5 + 1
+            x = len(j) - 4
             countries[i] = [' '.join(countries[i][:x])] + countries[i][x:]
 
     # Description list preparation
