@@ -48,8 +48,8 @@ Web Scraping using Jupyterlab with Selenium following below steps:
 13. Save result to the list
     ```python3
     for row in rows:
-    cols = row.find_elements(By.TAG_NAME, "td")
-    data = [col.text for col in cols]
+      cols = row.find_elements(By.TAG_NAME, "td")
+      data = [col.text for col in cols]
     ```
 15. Checking data & do correction needed -- checking the list dimension
     ```python3
