@@ -1,5 +1,6 @@
 # WebScraping_Jupyterlab_Selenium
 # *Overview*
+Project repo to demonstrate data extraction from web through web scrapping process, using selenium library & jupyter notebook editor. The project about how to set up system & step-by-step to scrapping data from web, save into pandas data frame then save as CSV file.  
 # *Prerequisites*
 To follow along this learnig need to make below requirements available on system:
 - python3 installed
@@ -31,7 +32,7 @@ Web Scraping using Jupyterlab with Selenium following below steps:
    ```python3
    options.add_argument("--headless=new")
    ```
-7. Provide URL to be scrape -- "https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions"
+7. Provide URL to be scrape 
    ```python3
    url = "https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions"   
    ```
